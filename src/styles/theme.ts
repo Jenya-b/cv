@@ -25,7 +25,7 @@ export const baseTheme: ITheme = {
       height: 18,
     },
     leftSection: {
-      minWidth: 300,
+      minWidth: 400,
     },
   },
   indents: {
@@ -39,8 +39,8 @@ export const baseTheme: ITheme = {
       marginRight: 10,
     },
     section: {
-      paddingRight: 60,
-      paddingLeft: 60,
+      paddingRight: 100,
+      paddingLeft: 80,
       rowGap: 40,
     },
     sectionList: {

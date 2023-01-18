@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { fontStylesItem } from 'styles/typography';
+import { fontStylesItem, fontStylesDate } from 'styles/typography';
 
 export const Icon = styled.div`
   width: ${({ theme }) => theme.sizes.icon.width}px;
@@ -19,4 +19,11 @@ export const StyledItem = styled.li`
 
 export const Desc = styled.p`
   ${fontStylesItem}
+`;
+
+export const Date = styled.p`
+  ${fontStylesDate}
+  align-self: flex-start;
+  margin-right: 15px;
+  padding-top: 3px;
 `;

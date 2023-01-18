@@ -28,8 +28,10 @@ export const AvatarImage = styled.img`
 `;
 
 export const ProfileName = styled.div`
+  margin-top: 40px;
   ${fontStylesProfileName}
 `;
 export const ProfessionName = styled.div`
+  margin-top: 20px;
   ${fontStylesProfessionName}
 `;

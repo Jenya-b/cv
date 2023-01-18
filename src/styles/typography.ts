@@ -15,13 +15,16 @@ export const fontStylesItem = css`
 `;
 
 export const fontStylesProfileName = css`
-  margin-top: 40px;
   font-size: 36px;
   font-weight: 400;
 `;
 
 export const fontStylesProfessionName = css`
-  margin-top: 20px;
   font-size: 18px;
   font-weight: 200;
+`;
+
+export const fontStylesDate = css`
+  font-size: 18px;
+  font-weight: 600;
 `;
