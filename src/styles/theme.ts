@@ -31,7 +31,7 @@ export const baseTheme: ITheme = {
   indents: {
     header: {
       paddingTop: 40,
-      paddingBottom: 50,
+      paddingBottom: 30,
       paddingRight: 10,
       paddingLeft: 10,
     },

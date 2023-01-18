@@ -1,10 +1,14 @@
+export const avatar = 'https://jenya-b.github.io/rsschool-cv/img/logo.jpg';
+
 export const icon = {
   home: '/source/icon/home.svg',
   tel: '/source/icon/tel.svg',
   message: '/source/icon/message.svg',
-  facebook: '/source/icon/facebook.svg',
-  telegram: '/source/icon/telegram.svg',
-  github: '/source/icon/github.svg',
+  facebook:
+    'https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white',
+  telegram:
+    'https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram&logoColor=white',
+  github: 'https://img.shields.io/badge/Github-red?style=for-the-badge&logo=github&logoColor=white',
   html: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain-wordmark.svg',
   css: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain-wordmark.svg',
   sass: 'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sass/sass-original.svg',

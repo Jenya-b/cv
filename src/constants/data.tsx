@@ -1,4 +1,4 @@
-import { icon } from './icon';
+import { icon } from './images';
 
 const contacts = [
   {
@@ -115,6 +115,12 @@ const courses = [
     date: '2022',
     title: 'Information Security Audit (Softline)',
   },
+];
+
+export const socialMedia = [
+  { icon: icon.telegram, href: 'https://t.me/evgeny_borisevich' },
+  { icon: icon.github, href: 'https://github.com/Jenya-b' },
+  { icon: icon.facebook, href: 'https://www.facebook.com/borisevich.evgeny' },
 ];
 
 export const data = [
