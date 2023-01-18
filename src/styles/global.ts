@@ -39,6 +39,7 @@ export default createGlobalStyle`
 		-ms-text-size-adjust: 100%;
 		-moz-text-size-adjust: 100%;
 		-webkit-text-size-adjust: 100%;
+		background: ${({ theme }) => theme.colors.mainBackground};
 	}
 	input,
 	button,
