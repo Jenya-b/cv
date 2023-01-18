@@ -14,6 +14,13 @@ export interface ITheme {
       width: number;
       height: number;
     };
+    icon: {
+      width: number;
+      height: number;
+    };
+    leftSection: {
+      minWidth: number;
+    };
   };
   indents: {
     header: {
@@ -21,6 +28,22 @@ export interface ITheme {
       paddingBottom: number;
       paddingRight: number;
       paddingLeft: number;
+    };
+    icon: {
+      marginRight: number;
+    };
+    section: {
+      paddingRight: number;
+      paddingLeft: number;
+      rowGap: number;
+    };
+    sectionList: {
+      marginTop: number;
+      rowGap: number;
+    };
+    mainContent: {
+      paddingTop: number;
+      paddingBottom: number;
     };
   };
   borders: {

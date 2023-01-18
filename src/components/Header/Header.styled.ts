@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { fontStylesProfessionName, fontStylesProfileName } from 'styles/typography';
 
 export const StyledHeader = styled.header`
   padding-top: ${({ theme }) => theme.indents.header.paddingTop}px;
@@ -27,12 +28,8 @@ export const AvatarImage = styled.img`
 `;
 
 export const ProfileName = styled.div`
-  margin-top: 40px;
-  font-size: 36px;
-  font-weight: 400;
+  ${fontStylesProfileName}
 `;
 export const ProfessionName = styled.div`
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: 200;
+  ${fontStylesProfessionName}
 `;
