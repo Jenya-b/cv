@@ -24,29 +24,35 @@ export interface ITheme {
   };
   indents: {
     header: {
-      paddingTop: number;
-      paddingBottom: number;
-      paddingRight: number;
-      paddingLeft: number;
+      padding: string;
     };
     icon: {
       marginRight: number;
     };
     section: {
-      paddingRight: number;
-      paddingLeft: number;
+      padding: string;
+      paddingLarge: string;
+      paddingMedium: string;
       rowGap: number;
+      rowGapSmall: number;
     };
     sectionList: {
       marginTop: number;
       rowGap: number;
+      marginTopSmall: number;
+      rowGapSmall: number;
     };
     mainContent: {
-      paddingTop: number;
-      paddingBottom: number;
+      padding: string;
+      paddingMedium: string;
     };
   };
   borders: {
     avatar: { borderRadius: number };
+  };
+  media: {
+    large: string;
+    medium: string;
+    small: string;
   };
 }

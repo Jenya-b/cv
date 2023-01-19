@@ -130,7 +130,7 @@ export const data = [
 ];
 
 export const mainData = [
-  { title: 'About my self', data: mySelf },
+  { title: 'About myself', data: mySelf },
   { title: 'Education', data: education },
   { title: 'Courses', data: courses },
 ];

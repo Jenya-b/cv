@@ -2,10 +2,7 @@ import styled from 'styled-components';
 import { fontStylesProfessionName, fontStylesProfileName } from 'styles/typography';
 
 export const StyledHeader = styled.header`
-  padding-top: ${({ theme }) => theme.indents.header.paddingTop}px;
-  padding-bottom: ${({ theme }) => theme.indents.header.paddingBottom}px;
-  padding-right: ${({ theme }) => theme.indents.header.paddingRight}px;
-  padding-left: ${({ theme }) => theme.indents.header.paddingLeft}px;
+  padding: ${({ theme }) => theme.indents.header.padding};
   background: ${({ theme }) => theme.colors.headerBackground};
   display: flex;
   flex-direction: column;

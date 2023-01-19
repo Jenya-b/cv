@@ -25,34 +25,40 @@ export const baseTheme: ITheme = {
       height: 18,
     },
     leftSection: {
-      minWidth: 400,
+      minWidth: 300,
     },
   },
   indents: {
     header: {
-      paddingTop: 40,
-      paddingBottom: 30,
-      paddingRight: 10,
-      paddingLeft: 10,
+      padding: '40px 10px 30px 10px',
     },
     icon: {
       marginRight: 10,
     },
     section: {
-      paddingRight: 100,
-      paddingLeft: 80,
+      padding: '0px 100px 0px 80px',
+      paddingLarge: '0px 30px 0px 60px',
+      paddingMedium: '0px 30px 0px 30px',
       rowGap: 40,
+      rowGapSmall: 20,
     },
     sectionList: {
       marginTop: 10,
       rowGap: 8,
+      marginTopSmall: 6,
+      rowGapSmall: 4,
     },
     mainContent: {
-      paddingTop: 50,
-      paddingBottom: 50,
+      padding: '50px 0',
+      paddingMedium: '30px 0',
     },
   },
   borders: {
     avatar: { borderRadius: 50 },
+  },
+  media: {
+    large: '(max-width: 1000px)',
+    medium: '(max-width: 720px)',
+    small: '(max-width: 480px)',
   },
 };
