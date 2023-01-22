@@ -1,5 +1,5 @@
 # Curriculum Vitae
 
-### Deploy: [https://cv-evgeniy.netlify.app](https://vivaldi.com/)
+### Deploy: https://cv-evgeniy.netlify.app
 
 Development branch: develop
