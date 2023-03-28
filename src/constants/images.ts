@@ -4,6 +4,8 @@ export const icon = {
   home: '/source/icon/home.svg',
   tel: '/source/icon/tel.svg',
   message: '/source/icon/message.svg',
+  github2: '/source/icon/github2.svg',
+  telegram2: '/source/icon/telegram.svg',
   facebook:
     'https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white',
   telegram:
