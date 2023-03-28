@@ -70,6 +70,12 @@ const interests = [
   },
 ];
 
+const languages = [
+  {
+    title: 'English - A2',
+  },
+];
+
 const mySelf = [
   {
     title:
@@ -82,6 +88,13 @@ const mySelf = [
   {
     title:
       'I love learning new things, developing, expanding my boundaries and getting out of my comfort zone. I am a sociable and friendly person.',
+  },
+];
+
+const work = [
+  {
+    date: '2022 to present',
+    title: 'Frontend developer, freelancer',
   },
 ];
 
@@ -126,11 +139,13 @@ export const socialMedia = [
 export const data = [
   { title: 'Contacts', data: contacts },
   { title: 'Skills', data: skills },
+  { title: 'Languages', data: languages },
   { title: 'Interests', data: interests },
 ];
 
 export const mainData = [
   { title: 'About myself', data: mySelf },
+  { title: 'Work experiences', data: work },
   { title: 'Education', data: education },
   { title: 'Courses', data: courses },
 ];
