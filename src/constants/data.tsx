@@ -115,14 +115,17 @@ const courses = [
   {
     date: '2021',
     title: 'JavaScript/Front-end Pre-School (The Rolling Scopes School)',
+    link: 'https://app.rs.school/certificate/u3ojf2v3',
   },
   {
     date: '2022',
     title: 'JavaScript/Front-end 2021Q3 (The Rolling Scopes School)',
+    link: 'https://app.rs.school/certificate/3frshve4',
   },
   {
     date: '2022',
     title: 'React 2022 Q1 (The Rolling Scopes School)',
+    link: 'https://app.rs.school/certificate/mg4gxjna',
   },
   {
     date: '2022',

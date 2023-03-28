@@ -1,5 +1,5 @@
 import { IData } from 'interfaces/content';
-import { StyledItem, Icon, IconImage, Desc, Date } from './Item.styled';
+import { StyledItem, Icon, IconImage, Desc, Date, Link } from './Item.styled';
 
 interface ItemProps {
   data: IData;
@@ -13,6 +13,8 @@ export const Item = ({ data }: ItemProps) => (
       </Icon>
     )}
     {data.date && <Date>{data.date}</Date>}
-    <Desc>{data.title}</Desc>
+    <Desc>
+      {data.title} {data.link && <Link href={data.link}>PDF</Link>}
+    </Desc>
   </StyledItem>
 );

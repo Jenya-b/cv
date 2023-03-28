@@ -27,3 +27,7 @@ export const Date = styled.p`
   margin-right: 15px;
   padding-top: 3px;
 `;
+
+export const Link = styled.a`
+  ${fontStylesDate}
+`;
