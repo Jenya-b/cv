@@ -45,6 +45,14 @@ const skills = [
     title: 'Redux / Redux Toolkit',
   },
   {
+    icon: icon.graphQL,
+    title: 'GraphQL',
+  },
+  {
+    icon: icon.jest,
+    title: 'Jest',
+  },
+  {
     icon: icon.mui,
     title: 'Material UI',
   },
@@ -60,40 +68,50 @@ const skills = [
 
 const interests = [
   {
+    title: 'Investment',
+  },
+  {
     title: 'Сooking on fire',
   },
   {
     title: 'Traveling',
   },
-  {
-    title: 'Photography',
-  },
 ];
 
 const languages = [
   {
-    title: 'English - A2',
+    title: 'English - B1',
   },
 ];
 
 const mySelf = [
   {
     title:
-      'I have two higher educations (technical and economic). I acquired my development skills through courses run by The Rolling Scopes developer community.',
+      'For me, the field of IT is not new. In 2013, I received a diploma of higher education in the specialty "operation of information systems", after which I worked for 10 years in a government organization, where I held the position of deputy head of the IT department for the last year.',
   },
   {
     title:
-      'I have a high working capacity, I am able to work in multitasking mode and in a team, I have developed organizational and managerial skills.',
+      'I acquired the main skills of Web development in courses run by the Rolling Scopes developer community and constantly improve them.',
+  },
+  {
+    title: 'At the moment, I successfully work on a freelance exchange.',
   },
   {
     title:
-      'I love learning new things, developing, expanding my boundaries and getting out of my comfort zone. I am a sociable and friendly person.',
+      'I have a high working capacity, I can work in multitasking mode and in a team, organizational and managerial skills are well developed.',
+  },
+  {
+    title:
+      'I like to learn new things, develop, expand my boundaries and go out of my comfort zone.',
+  },
+  {
+    title: 'I consider myself a sociable and friendly person.',
   },
 ];
 
 const work = [
   {
-    date: '2022 to present',
+    date: '2021 to present',
     title: 'Frontend developer, freelancer',
   },
 ];
