@@ -11,7 +11,7 @@ const contacts = [
   },
   {
     icon: icon.message,
-    title: 'evgenyborisevich@inbox.ru',
+    title: 'evgeniy_borisevich@outlook.com',
   },
 ];
 
